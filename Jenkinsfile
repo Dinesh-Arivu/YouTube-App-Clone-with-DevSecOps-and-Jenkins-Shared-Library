@@ -19,7 +19,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/Dinesh-Arivu/YouTube-Clone-App-with-DevSecOps-and-Jenkins-Shared-Library.git'
+                git branch: 'main', url: 'https://github.com/Dinesh-Arivu/https://github.com/Dinesh-Arivu/YouTube-App-Clone-with-DevSecOps-and-Jenkins-Shared-Library.git'
             }
         }
         stage("Sonarqube Analysis "){
@@ -94,4 +94,5 @@ pipeline{
         )
     }
 }
+
 }
